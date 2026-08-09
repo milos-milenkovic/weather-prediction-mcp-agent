@@ -1,7 +1,3 @@
-You're right. The problem is that I put multiple fenced code blocks inside one big fenced Markdown block, which breaks the formatting when you copy it.
-
-Use this clean version instead — copy everything below directly into `SUBMISSION.md`:
-
 # Day 3 Homework Submission
 
 ## Project
