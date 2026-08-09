@@ -1,0 +1,13 @@
+[project]
+name = "weather-prediction-mcp"
+version = "1.0.0"
+description = "Open-Meteo weather tools exposed through FastMCP for Databricks Agent Bricks"
+requires-python = ">=3.11"
+dependencies = [
+  "fastmcp>=2.11,<3",
+  "requests>=2.32,<3",
+  "uvicorn>=0.35,<1",
+]
+
+[project.scripts]
+weather-mcp = "weather_mcp_server:main"

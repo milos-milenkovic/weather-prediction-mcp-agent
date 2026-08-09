@@ -1,0 +1,5 @@
+command:
+  - uv
+  - run
+  - python
+  - weather_mcp_server.py
